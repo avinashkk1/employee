@@ -1,2 +1,0 @@
-# employee
-Sample employee design 
