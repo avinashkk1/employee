@@ -23,7 +23,7 @@ public class Salary {
         return deductions;
     }
 
-    public void setDeductions(double deductions) {
+    public void addDeductions(double deductions) {
         this.deductions += deductions;
         this.netPay -= deductions;
     }

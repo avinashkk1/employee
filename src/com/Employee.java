@@ -75,7 +75,7 @@ public class Employee {
     public void computeTax() {
         for (Tax tax : this.taxList) {
             double deductions = tax.getTaxPercentage() / (double)100 * this.salary.getTotalEarnings();
-            this.salary.setDeductions(deductions);
+            this.salary.addDeductions(deductions);
         }
     }
 
