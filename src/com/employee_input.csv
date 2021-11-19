@@ -2,11 +2,23 @@
 1,Male
 2,Female
 3,Other
-2
-1,Professional Tax,20
+5
+1,Professional Tax,30
 2,Education Cess,3
-4
-Avinash,Konda,Male,27-NOV-2021,1000000
-Ram,Miryala,Male,10-AUG-1970,20000
-Samantha,K,Female,10-FEB-1992,233235
-Rashmika,M,Female,10-JAN-1993,2849829
+3,Student Tax,2
+4,Professional Tax,20
+5,Goods & Services Tax,5
+7
+FULL_TIME,1
+FULL_TIME,2
+FULL_TIME,3
+INTERN,4
+PART_TIME,4
+PART_TIME,5
+PART_TIME,3
+5
+Avinash,Konda,Male,27-NOV-2021,1000000,FULL_TIME
+Ram,Miryala,Male,10-AUG-1970,20000,INTERN
+Samantha,K,Female,10-FEB-1992,233235,PART_TIME
+Rashmika,M,Female,10-JAN-1993,2849829,FULL_TIME
+Vijay,D,Male,01-JAN-1990,248349349,INTERN

@@ -3,11 +3,11 @@ package com;
 import java.util.List;
 
 public class Employee {
-    private int employeeID;
-    private Person person;
-    private String emailAddress;
-    private Salary salary;
-    private List<Tax> taxList;
+    protected int employeeID;
+    protected Person person;
+    protected String emailAddress;
+    protected Salary salary;
+    protected List<Tax> taxList;
 
     private static int nextEmployeeID = 1;
 
